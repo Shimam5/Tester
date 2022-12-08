@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage ('Git '{
+        stage ('Git '){
             steps{
                 git credentialsId: '4cf3b80a-8380-42c3-afcb-a98392ecb963', url: 'https://github.com/Shimam5/Tester.git'
             }
